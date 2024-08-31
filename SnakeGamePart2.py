@@ -94,19 +94,6 @@ while running:
     if ():
         food_x = round(random.randrange(0, SCREEN_WIDTH - snake_size) / snake_size) * snake_size
         food_y = round(random.randrange(0, SCREEN_HEIGHT - snake_size) / snake_size) * snake_size
-        
-    
-    
-    # # Snake collision with walls
-    # if snake_x < 0 or snake_x >= SCREEN_WIDTH or snake_y < 0 or snake_y >= SCREEN_HEIGHT:
-    #     running = False
-
-    # # Snake eats food
-    # if snake_x == food_x and snake_y == food_y:
-    #     food_x = round(random.randrange(0, SCREEN_WIDTH - snake_size) / snake_size) * snake_size
-    #     food_y = round(random.randrange(0, SCREEN_HEIGHT - snake_size) / snake_size) * snake_size
-    #     snake_length += 1
-
 
     
     #********************************************************************************************************************************
