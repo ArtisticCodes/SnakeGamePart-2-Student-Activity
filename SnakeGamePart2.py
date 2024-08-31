@@ -112,7 +112,7 @@ while running:
     #********************************************************************************************************************************
 
     # Fill screen with black background
-    screen.fill(BLACK)
+    screen.fill(WHITE)
 
     # Draw snake
     for block in snake_body:
