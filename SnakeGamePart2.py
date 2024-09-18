@@ -91,9 +91,10 @@ while running:
         running=False
 
     # Snake eats food and its length is increase
-    if ():
+    if snake_x == food_x and snake_y == food_y:
         food_x = round(random.randrange(0, SCREEN_WIDTH - snake_size) / snake_size) * snake_size
         food_y = round(random.randrange(0, SCREEN_HEIGHT - snake_size) / snake_size) * snake_size
+        snake_length = snake_length-1
 
     
     #********************************************************************************************************************************
